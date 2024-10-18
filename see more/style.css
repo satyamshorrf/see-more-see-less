@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 1rem;
+    background-color: wheat;
+    font-family: 'Lato',sans-serif;
+}
+
+.read-mor-container{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 1rem;
+}
+
+.container{
+    padding: 2rem;
+    background-color: wheat;
+    border-radius: 2px;
+    line-height: 1.4rem;
+    box-shadow: 0 0 1rem black;
+}
+
+.read-more-btn{
+    color: blue;
+}
+
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
+}
